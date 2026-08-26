@@ -77,7 +77,7 @@
 /* Set this once after creating your repo, e.g. "yourname/feature-story-videos".
    When hosted on GitHub Pages, any MP4 in videos/ that isn't a named slot
    below appears automatically in a "New — unsorted" section. */
-const GITHUB_REPO = "";
+const GITHUB_REPO = ""; // set back to "johnish49-hash/Feature-modal-video-exploration" to re-enable the auto "New" section
 
 /* ── Your features & variants ─────────────────────────────────────────────
    Each variant: { src, poster, name, tag, desc, square }
@@ -114,6 +114,8 @@ const SECTIONS = [
     variants:[
       { src:"videos/MW4gayZLbCZ6LA6AEzHJRg.mp4",name:"Cut 1", tag:"16:9", desc:"" },
       { src:"videos/ps0uzzilrnZV6LekBDp5zg.mp4",name:"Cut 2", tag:"16:9", desc:"" },
+      { src:"videos/ai.mp4",   name:"Cut 3", tag:"16:9", desc:"" },
+      { src:"videos/ai 2.mp4", name:"Cut 4", tag:"16:9", desc:"" },
     ]
   },
   {
@@ -121,24 +123,6 @@ const SECTIONS = [
     tagline:"The deck ends where the story does.",
     variants:[
       { src:"", name:"First cut", tag:"planned", desc:"Section reserved — render coming." },
-    ]
-  },
-  {
-    id:"export", num:"05", title:"Export presentations",
-    tagline:"Your deck, everywhere you need it.",
-    variants:[
-      { src:"videos/export-split.mp4", poster:"posters/export-split.jpg",
-        name:"Split", tag:"9s · 16:9",
-        desc:"Chrome-free: the slide splits into three format copies, each earning a check." },
-    ]
-  },
-  {
-    id:"unsorted-known", num:"06", title:"New — to be titled",
-    tagline:"On disk but not on the Figma board yet.",
-    variants:[
-      { src:"videos/1.mp4",                      name:"1",         tag:"16:9", desc:"" },
-      { src:"videos/8pl3Wmf-I9hqp7L-Ljek_A.mp4", name:"8pl3Wmf…",  tag:"16:9", desc:"" },
-      { src:"videos/16fJvM7C-a7zkfJ9KlsMkg.mp4", name:"16fJvM7C…", tag:"16:9", desc:"" },
     ]
   },
 ];
